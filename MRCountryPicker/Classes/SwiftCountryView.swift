@@ -63,7 +63,7 @@ class SwiftCountryView: NibLoadingView {
         }
         
         countryCodeLabel.text = country.phoneCode
-
+        countryNameLabel.textColor = .white
 
         if let code = country.code,
             let locale = locale {
